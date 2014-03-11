@@ -29,7 +29,7 @@ public class TiledLoader : MonoBehaviour {
 			GameObject g = (GameObject)Instantiate(base_sprite);
 			g.transform.position = new Vector3(transform.position.x + x, transform.position.y - y, 0.0f);
 			SpriteRenderer sr = g.GetComponent<SpriteRenderer>();
-			sr.sprite = sprites[gid-2];
+			sr.sprite = sprites[gid-1];
 		}
 	}
 
@@ -38,7 +38,7 @@ public class TiledLoader : MonoBehaviour {
 			GameObject g = (GameObject)Instantiate(object_sprite);
 			g.transform.position = new Vector3(transform.position.x + x, transform.position.y - y, 0.0f);
 			SpriteRenderer sr = g.GetComponent<SpriteRenderer>();
-			sr.sprite = sprites[gid-2];
+			sr.sprite = sprites[gid-1];
 			sr.sortingOrder = 1;
 		}
 	}
