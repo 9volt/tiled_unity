@@ -4,6 +4,7 @@ obj/
 *.svd
 *.sln
 *.exe
+*.cjproj
  
 !Library/*.asset
 !Library/AssetImportState
