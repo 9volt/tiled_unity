@@ -19,6 +19,7 @@ public class TiledLoader : MonoBehaviour {
 	void load_sprites(string filename){
 		Debug.Log("Loading: " + filename);
 		Sprite[] ss = Resources.LoadAll<Sprite>(filename);
+		sprites.Add(null);
 		foreach(Sprite s in ss){
 			sprites.Add(s);
 		}
@@ -29,7 +30,7 @@ public class TiledLoader : MonoBehaviour {
 			GameObject g = (GameObject)Instantiate(base_sprite);
 			g.transform.position = new Vector3(transform.position.x + x, transform.position.y - y, 0.0f);
 			SpriteRenderer sr = g.GetComponent<SpriteRenderer>();
-			sr.sprite = sprites[gid-1];
+			sr.sprite = sprites[gid];
 		}
 	}
 
@@ -38,7 +39,7 @@ public class TiledLoader : MonoBehaviour {
 			GameObject g = (GameObject)Instantiate(object_sprite);
 			g.transform.position = new Vector3(transform.position.x + x, transform.position.y - y, 0.0f);
 			SpriteRenderer sr = g.GetComponent<SpriteRenderer>();
-			sr.sprite = sprites[gid-1];
+			sr.sprite = sprites[gid];
 			sr.sortingOrder = 1;
 		}
 	}
