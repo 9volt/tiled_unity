@@ -6,7 +6,6 @@ using System.Xml;
 public class TiledLoader : MonoBehaviour {
 	public string level_name;
 	private XmlDocument doc;
-	public Texture2D[] textures;
 	private GameObject base_sprite;
 	private GameObject object_sprite;
 	private List<Sprite> sprites;
