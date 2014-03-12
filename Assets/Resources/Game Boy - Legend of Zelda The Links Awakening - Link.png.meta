@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 9d7a7b52568366a45bb76e5dc8d0104e
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 218
+        width: 14
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 218
+        width: 13
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 218
+        width: 13
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 218
+        width: 13
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 218
+        width: 12
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 218
+        width: 12
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 218
+        width: 13
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 218
+        width: 14
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 173
+        width: 14
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 173
+        width: 13
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 173
+        width: 14
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 173
+        width: 14
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 102
+        width: 15
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 102
+        width: 27
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 102
+        width: 30
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 102
+        width: 30
+        height: 15
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 102
+        width: 27
+        height: 28
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 102
+        width: 15
+        height: 31
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_18
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 80
+        width: 30
+        height: 15
+      alignment: 3
+      pivot: {x: 1, y: 1}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 67
+        width: 26
+        height: 28
+      alignment: 3
+      pivot: {x: 1, y: 1}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 63
+        width: 15
+        height: 31
+      alignment: 3
+      pivot: {x: 1, y: 1}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 64
+        width: 15
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 63
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: Game Boy - Legend of Zelda The Links Awakening - Link_23
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 63
+        width: 29
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
