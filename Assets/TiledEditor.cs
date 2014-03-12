@@ -7,6 +7,7 @@ using System.Xml;
 public class TiledEditor : EditorWindow {
 	string current_level;
 	bool groupEnabled;
+	int object_layer;
 
 	private XmlDocument doc;
 	private GameObject base_sprite;
@@ -23,7 +24,7 @@ public class TiledEditor : EditorWindow {
 		}
 	}
 
-	void add_tile(int x, int y, int gid){
+	void add_tile(int x, int y, int z, int gid){
 		if(gid != 0){
 			GameObject g = (GameObject)Instantiate(base_sprite);
 			g.name = x + "_" + y;
@@ -31,6 +32,7 @@ public class TiledEditor : EditorWindow {
 			g.transform.position = new Vector3(transform.position.x + x, transform.position.y - y, 0.0f);
 			SpriteRenderer sr = g.GetComponent<SpriteRenderer>();
 			sr.sprite = sprites[gid];
+			sr.sortingOrder = z;
 		}
 	}
 	
@@ -41,11 +43,11 @@ public class TiledEditor : EditorWindow {
 			g.transform.position = new Vector3(transform.position.x + x, transform.position.y - y, 0.0f);
 			SpriteRenderer sr = g.GetComponent<SpriteRenderer>();
 			sr.sprite = sprites[gid];
-			sr.sortingOrder = 1;
+			sr.sortingOrder = object_layer;
 		}
 	}
 	
-	void draw_tiles(XmlNode x){
+	void draw_tiles(XmlNode x, int z){
 		Debug.Log("Drawing tiles");
 		Debug.Log("width: " + x.Attributes["width"].Value + " height: " + x.Attributes["height"].Value);
 		//add_tile(1,1,0);
@@ -53,7 +55,7 @@ public class TiledEditor : EditorWindow {
 		int width = int.Parse(x.Attributes["width"].Value);
 		int i = 0;
 		foreach(XmlNode child in x.ChildNodes[0].ChildNodes){
-			add_tile(i%width, i/height, int.Parse(child.Attributes["gid"].Value));
+			add_tile(i%width, i/height, z, int.Parse(child.Attributes["gid"].Value));
 			i++;
 		}
 	}
@@ -95,9 +97,12 @@ public class TiledEditor : EditorWindow {
 	}
 
 	void DrawBackground(){
+		int z = 0;
 		foreach(XmlNode node in doc.GetElementsByTagName("layer")){
-			draw_tiles(node);
+			draw_tiles(node, z);
+			z++;
 		}
+		object_layer = z + 10;
 	}
 
 	void DrawObjects(){
