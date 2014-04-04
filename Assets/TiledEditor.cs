@@ -55,7 +55,7 @@ public class TiledEditor : EditorWindow {
 		int width = int.Parse(x.Attributes["width"].Value);
 		int i = 0;
 		foreach(XmlNode child in x.ChildNodes[0].ChildNodes){
-			add_tile(i%width, i/height, z, int.Parse(child.Attributes["gid"].Value));
+			add_tile(i%width, i/width, z, int.Parse(child.Attributes["gid"].Value));
 			i++;
 		}
 	}
